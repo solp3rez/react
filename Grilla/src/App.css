@@ -1,0 +1,20 @@
+body, html, #root {
+    font-family: sans-serif;
+    padding: 20px;
+    margin: 0;
+    background-image: url("https://i.pinimg.com/736x/40/cd/4d/40cd4d76e5863e3df477d216d6f58206.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+header, footer {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+footer a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: blue;
+}
