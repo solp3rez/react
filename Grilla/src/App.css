@@ -2,7 +2,8 @@ body, html, #root {
     font-family: sans-serif;
     padding: 20px;
     margin: 0;
-    background-image: url("https://i.pinimg.com/736x/40/cd/4d/40cd4d76e5863e3df477d216d6f58206.jpg");
+    background-image: url("https://i.pinimg.com/736x/0c/bf/b1/0cbfb1f7fcb48363ad73e53530e70d81.jpg");
+/*background-color: rgb(255, 240, 201); /* color sólido */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -16,5 +17,13 @@ header, footer {
 footer a {
     margin: 0 10px;
     text-decoration: none;
-    color: blue;
+    color: rgb(101, 101, 156);
 }
+header {
+    font-size: 56px;       /* tamaño de letra grande */
+    font-weight: bold;     /* letra más gruesa */
+    text-align: center;    /* centra el texto */
+    margin-bottom: 40px;   /* separa el header del contenido de abajo */
+    color: #359bc4;           /* color del texto, opcional */
+}
+

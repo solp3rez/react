@@ -1,18 +1,23 @@
 .grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr); /*4 columnas*/
+    grid-template-rows: repeat(2, auto);   /* 2 filas */
     grid-auto-rows: auto;
-    gap: 20px;
+    gap: 15px 8px; /* 10px entre filas, 5px entre columnas */
     justify-content: center;
 }
 
 .card {
+    .card {
+    width: 400px; /* más ancho = imagen más grande */
     padding: 20px;
     border-radius: 10px;
     text-align: center;
     height: auto;
-    width: 400px;
     cursor: pointer;
+}
+ object-fit: cover; /* cubre todo el espacio sin deformarse */
+    
 }
 
 .Matematicas {
@@ -27,11 +32,31 @@
 .quimica {
     background-color: rgb(60, 72, 165);
 }
+.AGBD{
+    background-color: rgb(129, 129, 6);
+}
+
+.AED{
+    background-color: black;
+    color: rgb(184, 17, 17);
+}
+
+.TAP {
+    background-color: rgb(60, 72, 165);
+}
+.ProgramacionWeb{
+    background-color: black;
+    color: rgb(184, 17, 17);
+}
+
+.DiseñoSoftwar{
+    background-color: rgb(60, 72, 165);
+}
 
 .card img {
-    width: 50%;
+    width: 80%;
     object-fit: cover;
-    aspect-ratio: 16/9;
+    aspect-ratio: 1 / 1;   /* 1:1 = cuadrado */
 }
 
 /* Media Query */

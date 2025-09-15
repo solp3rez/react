@@ -16,6 +16,29 @@ const cards = [
     name: "Quimica",
     img: "https://i.pinimg.com/1200x/52/22/e3/5222e3de01d704ede991a1842c6e6ab4.jpg",
     className: "Marcela Gleiser",
+  },{
+    name: "Base de Datos",
+    img: "https://i.pinimg.com/736x/11/27/fc/1127fc5b3431a9291c71c10445969741.jpg",
+    className: "Fernando Michalski",
+  },
+  {
+    name: "AED",
+    img: "https://i.pinimg.com/736x/65/34/43/653443bd861cef14463bfb533487e6a8.jpg",
+    className: "Gabriel Veronda",
+  },
+  {
+    name: "TAP",
+    img: "https://i.pinimg.com/1200x/52/22/e3/5222e3de01d704ede991a1842c6e6ab4.jpg",
+    className: "Marcela Gleiser",
+  },{
+    name: "Programacion Web",
+    img: "https://i.pinimg.com/736x/65/34/43/653443bd861cef14463bfb533487e6a8.jpg",
+    className: "Gabriel Veronda",
+  },
+  {
+    name: "Diseño de Softwar",
+    img: "https://i.pinimg.com/1200x/52/22/e3/5222e3de01d704ede991a1842c6e6ab4.jpg",
+    className: "Marcela Gleiser",
   },
   
 ];
