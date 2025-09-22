@@ -1,6 +1,8 @@
 import React from "react";
 import "./Grilla.css"; // tu CSS de la grilla
 //firebase storage
+import { useNavigate } from "react-router-dom";
+
 
 const cards = [
   {
@@ -45,6 +47,38 @@ const cards = [
 ];
 
 export function Grilla() {
+   const navigate = useNavigate(); // hook para navegar entre rutas
+
+  const handleClick = (subject) => {
+    switch(subject.toLowerCase()) {
+      case "ingles":
+        navigate("/ingles");
+        break;
+      case "matematicas":
+        navigate("/matematicas");
+        break;
+      case "quimica":
+        navigate("/quimica");
+        break;
+      case "base de datos":
+        navigate("/basededatos");
+        break;
+      case "aed":
+        navigate("/aed");
+        break;
+      case "tap":
+        navigate("/tap");
+        break;
+      case "programacion web":
+        navigate("/programacionweb");
+        break;
+      case "diseño de software":
+        navigate("/disenodesoftware");
+        break;
+      default:
+        navigate("/");
+    }
+  };
   return (
     <div className="grid">
       {cards.map((card, index) => (
