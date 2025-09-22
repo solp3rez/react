@@ -2,8 +2,8 @@ body, html, #root {
     font-family: sans-serif;
     padding: 20px;
     margin: 0;
-    background-image: url("https://i.pinimg.com/736x/0c/bf/b1/0cbfb1f7fcb48363ad73e53530e70d81.jpg");
-/*background-color: rgb(255, 240, 201); /* color sólido */
+   /* background-image: url("https://i.pinimg.com/736x/0c/bf/b1/0cbfb1f7fcb48363ad73e53530e70d81.jpg");*/
+    background-color: rgb(0, 255, 255); /* color sólido */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

@@ -11,20 +11,31 @@
 
 
 .card {
-    .card {
-    width: 400px; /* más ancho = imagen más grande */
-    padding: 20px;
-    border-radius: 1 0px;
-    text-align: center;
-    height: auto;
-    cursor: pointer;
-    display:flex;
-    flex-direction: column-reverse;/*el nombre se ve arriba */
-   
+  display: flex;
+  flex-direction: column; /* orden normal: título arriba, imagen abajo */
+  text-align: center;     /* centra todo el contenido */
+  position: relative;
+  overflow: hidden;/*evita q se muestre el contenido q se resbolda */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  width: 400px;
+  padding: 20px;
+  border-radius: 15px;
+  height: auto;
+  cursor: pointer;
 }
+
+.card-title {
+  font-size: 2.5rem;    /* tamaño del título */
+  font-weight:bolder;  
+  margin-bottom: 10px; /* espacio entre título e imagen */
+  text-align: center ;  /* 🔹 centra el texto */
+  color: #0f5555;        /* 🔹 aquí ponés el color que quieras */
+}
+   
+
  object-fit: cover; /* cubre todo el espacio sin deformarse */
     
-}
+
 
 .Matematicas {
     background-color: rgb(129, 129, 6);
@@ -33,7 +44,7 @@
 
 .ingles{
     background-color: black;
-    color: rgb(184, 17, 17);
+    color: rgb(24, 6, 6);
 }
 
 .quimica {
@@ -64,9 +75,9 @@
     width: 80%;
     object-fit: cover;
     aspect-ratio: 1 / 1;   /* 1:1 = cuadrado */
+    border-radius: 12px;          
     box-shadow: 0 5px 20px rgba(0, 0, 0, 1);/*Sombra*/
 /*border: 10px solid rgba(0, 0, 0, 0.2);*/
-
 
 
 }

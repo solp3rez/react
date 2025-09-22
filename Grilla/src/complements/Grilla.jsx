@@ -36,7 +36,7 @@ const cards = [
     className: "Gabriel Veronda",
   },
   {
-    name: "Diseño de Softwar",
+    name: "Diseño de Software",
     img: "https://i.pinimg.com/1200x/52/22/e3/5222e3de01d704ede991a1842c6e6ab4.jpg",
     className: "Marcela Gleiser",
   },
@@ -47,9 +47,14 @@ export function Grilla() {
   return (
     <div className="grid">
       {cards.map((card, index) => (
-        <div key={index} className={`card ${card.className}`}>
-          <img src={card.img} alt={card.name} />
-          <h2>{card.name}</h2>
+        <div key={index} className="card">
+          {/* Título arriba */}
+          <h2 className="card-title">{card.name}</h2>
+
+          {/* Imagen */}
+          <div>
+            <img src={card.img} alt={card.name} />
+          </div>
         </div>
       ))}
     </div>
